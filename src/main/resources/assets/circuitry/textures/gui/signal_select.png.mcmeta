@@ -1,0 +1,11 @@
+{
+  "spritesheet":{
+		"textureWidth":256,
+		"textureHeight":256,
+		"sprites":{
+			"signal_bg":[0, 0, 195, 136],
+			"slot":[0, 136, 18, 18],
+			"scroll":[18, 136, 12, 15]
+		}
+	}
+}

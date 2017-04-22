@@ -1,0 +1,68 @@
+{
+	"__comment": "Designed by TheCodeWarrior with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"texture": "circuitry:blocks/redstone_output"
+	},
+	"elements": [
+		{
+			"__comment": "Cube1",
+			"from": [ 4, 0, 4 ],
+			"to": [ 12, 2, 12 ],
+			"faces": {
+				"down": { "uv": [ 1, 12, 5, 16 ], "texture": "#texture" },
+				"up": { "uv": [ 1, 7, 5, 11 ], "texture": "#texture" },
+				"north": { "uv": [ 1, 6, 5, 7 ], "texture": "#texture" },
+				"south": { "uv": [ 1, 11, 5, 12 ], "texture": "#texture" },
+				"west": { "uv": [ 0, 7, 1, 11 ], "texture": "#texture", "rotation": 270 },
+				"east": { "uv": [ 5, 7, 6, 11 ], "texture": "#texture", "rotation": 90 }
+			}
+		},
+		{
+			"__comment": "Cube2",
+			"from": [ 6, 2, 7.5 ],
+			"to": [ 7, 5, 8.5 ],
+			"faces": {
+				"up": { "uv": [ 1.5, 4, 2, 4.5 ], "texture": "#texture" },
+				"north": { "uv": [ 1, 4.5, 1.5, 6.5 ], "texture": "#texture" },
+				"south": { "uv": [ 2, 4.5, 2.5, 6 ], "texture": "#texture" },
+				"west": { "uv": [ 1.5, 4.5, 2, 6 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Cube3",
+			"from": [ 9, 2, 7.5 ],
+			"to": [ 10, 5, 8.5 ],
+			"faces": {
+				"up": { "uv": [ 4, 4, 4.5, 4.5 ], "texture": "#texture" },
+				"north": { "uv": [ 3.5, 4.5, 4, 6 ], "texture": "#texture" },
+				"south": { "uv": [ 4.5, 4.5, 5, 6 ], "texture": "#texture" },
+				"east": { "uv": [ 4, 4.5, 4.5, 6 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Cube4",
+			"from": [ 7, 2, 7 ],
+			"to": [ 9, 7, 9 ],
+			"faces": {
+				"up": { "uv": [ 6, 12.5, 7, 13.5 ], "texture": "#texture" },
+				"north": { "uv": [ 7, 13.5, 8, 16 ], "texture": "#texture" },
+				"south": { "uv": [ 5, 13.5, 6, 16 ], "texture": "#texture" },
+				"west": { "uv": [ 6, 13.5, 7, 16 ], "texture": "#texture" },
+				"east": { "uv": [ 8, 13.5, 9, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Cube5",
+			"from": [ 7.5, 7, 7.5 ],
+			"to": [ 8.5, 8, 8.5 ],
+			"faces": {
+				"down": { "uv": [ 7.5, 7.5, 8.5, 8.5 ], "texture": "#texture" },
+				"up": { "uv": [ 8, 12, 8.5, 12.5 ], "texture": "#texture" },
+				"north": { "uv": [ 8, 11.5, 8.5, 12 ], "texture": "#texture" },
+				"south": { "uv": [ 8, 12.5, 8.5, 13 ], "texture": "#texture" },
+				"west": { "uv": [ 7.5, 12, 8, 12.5 ], "texture": "#texture" },
+				"east": { "uv": [ 8.5, 12, 9, 12.5 ], "texture": "#texture" }
+			}
+		}
+	]
+}

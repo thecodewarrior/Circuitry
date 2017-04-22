@@ -1,16 +1,16 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "circuitry",
+  "name": "Circuitry",
+  "description": "Factorio circuit networks in minecraft",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["TheCodeWarrior"],
+  "credits": "TheCodeWarrior, cause he made it",
   "logoFile": "",
   "screenshots": [],
-  "dependencies": []
+  "dependencies": ["librarianlib"]
 }
 ]

@@ -1,0 +1,29 @@
+{
+	"variants": {
+		"facing=down": {
+			"model": "circuitry:redstone_out",
+			"x": 180
+		},
+		"facing=up": {
+			"model": "circuitry:redstone_out"
+		},
+		"facing=north": {
+			"model": "circuitry:redstone_out",
+			"x": 90
+		},
+		"facing=south": {
+			"model": "circuitry:redstone_out",
+			"x": 270
+		},
+		"facing=west": {
+			"model": "circuitry:redstone_out",
+			"x": 90,
+			"y": 270
+		},
+		"facing=east": {
+			"model": "circuitry:redstone_out",
+			"x": 90,
+			"y": 90
+		}
+	}
+}

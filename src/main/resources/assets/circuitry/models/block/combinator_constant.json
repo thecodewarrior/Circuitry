@@ -1,0 +1,68 @@
+{
+	"__comment": "Designed by TheCodeWarrior with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "circuitry:blocks/constant_combinator"
+	},
+	"elements": [
+		{
+			"__comment": "Cube1",
+			"from": [ 4, 0, 4 ],
+			"to": [ 12, 6, 12 ],
+			"faces": {
+				"down": { "uv": [ 4, 12, 8, 16 ], "texture": "#particle", "rotation": 180 },
+				"north": { "uv": [ 4, 9, 8, 12 ], "texture": "#particle" },
+				"south": { "uv": [ 12, 9, 16, 12 ], "texture": "#particle" },
+				"west": { "uv": [ 8, 9, 12, 12 ], "texture": "#particle" },
+				"east": { "uv": [ 0, 9, 4, 12 ], "texture": "#particle" }
+			}
+		},
+		{
+			"__comment": "Cube2",
+			"from": [ 4, 6, 4 ],
+			"to": [ 12, 9, 9 ],
+			"faces": {
+				"up": { "uv": [ 4, 5, 8, 7.5 ], "texture": "#particle", "rotation": 180 },
+				"north": { "uv": [ 4, 7.5, 8, 9 ], "texture": "#particle" },
+				"west": { "uv": [ 8, 7.5, 10.5, 9 ], "texture": "#particle" },
+				"east": { "uv": [ 1.5, 7.5, 4, 9 ], "texture": "#particle" }
+			}
+		},
+		{
+			"__comment": "Cube3",
+			"from": [ 4.01, 3.9913, 10.3166 ],
+			"to": [ 11.99, 8.2513, 12.8166 ],
+			"rotation": { "origin": [ 0, 4, 10 ], "axis": "x", "angle": -45 },
+			"faces": {
+				"south": { "uv": [ 12, 7, 16, 9 ], "texture": "#particle" },
+				"west": { "uv": [ 10.5, 7, 12, 9 ], "texture": "#particle" },
+				"east": { "uv": [ 0, 7, 1.5, 9 ], "texture": "#particle" }
+			}
+		},
+		{
+			"__comment": "Cube5",
+			"from": [ 9.5, 7, 11 ],
+			"to": [ 11, 8.5, 12 ],
+			"rotation": { "origin": [ 9.5, 7, 11 ], "axis": "x", "angle": -45 },
+			"faces": {
+				"down": { "uv": [ 14.5, 6.5, 15.5, 7 ], "texture": "#particle" },
+				"up": { "uv": [ 14.5, 5, 15.5, 5.5 ], "texture": "#particle" },
+				"south": { "uv": [ 14.5, 5.5, 15.5, 6.5 ], "texture": "#particle" },
+				"west": { "uv": [ 14, 5.5, 14.5, 6.5 ], "texture": "#particle" },
+				"east": { "uv": [ 15.5, 5.5, 16, 6.5 ], "texture": "#particle" }
+			}
+		},
+		{
+			"__comment": "Cube5",
+			"from": [ 5, 7, 11 ],
+			"to": [ 6.5, 8.5, 12 ],
+			"rotation": { "origin": [ 5, 7, 11 ], "axis": "x", "angle": -45 },
+			"faces": {
+				"down": { "uv": [ 12.5, 6.5, 13.5, 7 ], "texture": "#particle" },
+				"up": { "uv": [ 12.5, 5, 13.5, 5.5 ], "texture": "#particle" },
+				"south": { "uv": [ 12.5, 5.5, 13.5, 6.5 ], "texture": "#particle" },
+				"west": { "uv": [ 12, 5.5, 12.5, 6.5 ], "texture": "#particle" },
+				"east": { "uv": [ 13.5, 5.5, 14, 6.5 ], "texture": "#particle" }
+			}
+		}
+	]
+}

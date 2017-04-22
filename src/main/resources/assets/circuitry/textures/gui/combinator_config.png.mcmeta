@@ -1,0 +1,14 @@
+{
+  "spritesheet":{
+		"textureWidth":256,
+		"textureHeight":256,
+		"sprites":{
+			"card":[75, 72, 94, 76],
+			"inv":[34, 148, 176, 94],
+			"numcard":[169, 94, 72, 20],
+      "slider":[174, 86, 5, 8],
+      "in_1":[21, 104, 54, 44],
+      "in_glow":[72, 101, 3, 3]
+		}
+	}
+}

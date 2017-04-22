@@ -1,0 +1,29 @@
+{
+	"variants": {
+		"facing=down": {
+			"model": "circuitry:wire_tower",
+			"x": 180
+		},
+		"facing=up": {
+			"model": "circuitry:wire_tower"
+		},
+		"facing=north": {
+			"model": "circuitry:wire_tower",
+			"x": 90
+		},
+		"facing=south": {
+			"model": "circuitry:wire_tower",
+			"x": 270
+		},
+		"facing=west": {
+			"model": "circuitry:wire_tower",
+			"x": 90,
+			"y": 270
+		},
+		"facing=east": {
+			"model": "circuitry:wire_tower",
+			"x": 90,
+			"y": 90
+		}
+	}
+}

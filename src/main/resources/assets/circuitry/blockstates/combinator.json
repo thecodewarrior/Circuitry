@@ -1,0 +1,116 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "circuitry:combinator"
+	},
+	"variants": {
+		"attached=down,facing=north": [{
+			"transform": { "rotation": [{"y": 180}]}
+		}],
+		"attached=down,facing=south": [{
+		}],
+		"attached=down,facing=west": [{
+			"transform": { "rotation": [{"y": -90}]}
+		}],
+		"attached=down,facing=east": [{
+			"transform": { "rotation": [{"y": 90}]}
+		}],
+		"attached=up,facing=north": [{
+			"transform": { "rotation": [{"x": 180}]}
+		}],
+		"attached=up,facing=south": [{
+			"transform": { "rotation": [{"x": 180}, {"y": 180}]}
+		}],
+		"attached=up,facing=west": [{
+			"transform": { "rotation": [{"x": 180}, {"y": -90}]}
+		}],
+		"attached=up,facing=east": [{
+			"transform": { "rotation": [{"x": 180}, {"y": 90}]}
+		}],
+		"attached=north,facing=down": [{
+			"transform": { "rotation": [{"x": 90}]}
+		}],
+		"attached=north,facing=up": [{
+			"transform": { "rotation": [{"x": 90}, {"y": 180}]}
+		}],
+		"attached=north,facing=west": [{
+			"transform": { "rotation": [{"x": 90}, {"y": -90}]}
+		}],
+		"attached=north,facing=east": [{
+			"transform": { "rotation": [{"x": 90}, {"y": 90}]}
+		}],
+		"attached=south,facing=down": [{
+			"transform": { "rotation": [{"x": -90}, {"y": 180}]}
+		}],
+		"attached=south,facing=up": [{
+			"transform": { "rotation": [{"x": -90}]}
+		}],
+		"attached=south,facing=west": [{
+			"transform": { "rotation": [{"x": -90}, {"y": -90}]}
+		}],
+		"attached=south,facing=east": [{
+			"transform": { "rotation": [{"x": -90}, {"y": 90}]}
+		}],
+		"attached=west,facing=down": [{
+			"transform": { "rotation": [{"z": -90}, {"y": 90}]}
+		}],
+		"attached=west,facing=up": [{
+			"transform": { "rotation": [{"z": -90}, {"y": -90}]}
+		}],
+		"attached=west,facing=north": [{
+			"transform": { "rotation": [{"z": -90}, {"y": 180}]}
+		}],
+		"attached=west,facing=south": [{
+			"transform": { "rotation": [{"z": -90}]}
+		}],
+		"attached=east,facing=down": [{
+			"transform": { "rotation": [{"z": 90}, {"y": -90}]}
+		}],
+		"attached=east,facing=up": [{
+			"transform": { "rotation": [{"z": 90}, {"y": 90}]}
+		}],
+		"attached=east,facing=north": [{
+			"transform": { "rotation": [{"z": 90}, {"y": 180}]}
+		}],
+		"attached=east,facing=south": [{
+			"transform": { "rotation": [{"z": 90}]}
+		}],
+
+		"attached=down,facing=down": [{
+			"model": "circuitry:state_error"
+		}],
+		"attached=down,facing=up": [{
+			"model": "circuitry:state_error"
+		}],
+		"attached=up,facing=down": [{
+			"model": "circuitry:state_error"
+		}],
+		"attached=up,facing=up": [{
+			"model": "circuitry:state_error"
+		}],
+		"attached=north,facing=north": [{
+			"model": "circuitry:state_error"
+		}],
+		"attached=north,facing=south": [{
+			"model": "circuitry:state_error"
+		}],
+		"attached=south,facing=north": [{
+			"model": "circuitry:state_error"
+		}],
+		"attached=south,facing=south": [{
+			"model": "circuitry:state_error"
+		}],
+		"attached=west,facing=west": [{
+			"model": "circuitry:state_error"
+		}],
+		"attached=west,facing=east": [{
+			"model": "circuitry:state_error"
+		}],
+		"attached=east,facing=west": [{
+			"model": "circuitry:state_error"
+		}],
+		"attached=east,facing=east": [{
+			"model": "circuitry:state_error"
+		}]
+	}
+}
